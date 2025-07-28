@@ -2,4 +2,4 @@
 
 ## 💻 Деплой проекта
 
-    👉 https://vue-task-production.up.railway.app/
+    https://vue-task-production.up.railway.app/  
