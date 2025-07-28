@@ -1,4 +1,8 @@
 import { fileURLToPath, URL } from 'node:url'
+import { createRequire } from 'module'
+const require = createRequire(import.meta.url)
+
+globalThis.crypto = require('crypto')
 
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
