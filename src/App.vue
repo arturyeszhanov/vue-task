@@ -37,8 +37,9 @@ const products = [{ id: 1, name: "Product 1", price: 100 }];
   </div>
 </template>
 
-<style scoped>
+<style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 .container {
   font-family: Roboto, sans-serif;
   display: flex;
